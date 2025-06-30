@@ -1,78 +1,135 @@
-# Tutoriel ARMA MOD FRANCE - Modifier le patch Patronymique pour y placer son nom
+# 🎖️ Tutoriel ARMA MOD FRANCE — Personnaliser le patch patronymique avec votre nom
 
-Hello, dans ce tutoriel, je vais vous apprendre à modifier le patch patronymique (disponible depuis la v1.17 du mod) pour pouvoir placer y placer votre nom !
+Bienvenue !  
+Dans ce tutoriel, vous apprendrez à modifier le **patch patronymique** (disponible depuis la version 1.17 du mod AMF) pour y inscrire votre propre nom. Ce guide est accessible aux **débutants** comme aux **utilisateurs avancés**.
 
-Prérequis: 
--GIMP ou Photoshop (Lien de téléchargement de GIMP: https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.4-setup.exe)
+---
 
--Les outils d'ARMA Reforger / 4
+## 🧰 Prérequis
 
-1. Télécharger le projet GIMP/Photoshop depuis cette page
-
-  Pour ce faire, cliquez sur le fichier "AMF_ProjetPhotoshopPatchPatronymique.psd" puis faites "Download Raw" pour le télécharger.
-  ![image](https://github.com/user-attachments/assets/045cbce8-c3f8-4556-a76f-721d6602d1aa)
-  ![image](https://github.com/user-attachments/assets/2e98806d-ca0b-4bd7-9ba1-ce59ba1d9c18)
-
-2. Ouvrir le projet GIMP/Photoshop
-   
-  Pour ce faire, faites clique droit sur le fichier que vous venez de télécharger puis "Ouvrir avec" et sélectionnez soit GIMP soit photoshop
-
-# 2.1. Modifier avec photoshop
-
-  Pour faire votre patch avec photoshop, faite ouvrir avec "Adobe Photoshop 20xx"
-  ![image](https://github.com/user-attachments/assets/6d6b34a8-4366-4a13-a9f7-011f84667ab4)
-
-  Une fois photoshop ouvert, vous avez donc le projet photoshop, pour les personnes qui ne s'y conaissent pas, voici un petit récap:
-  ![image](https://github.com/user-attachments/assets/b24b7bfa-c477-4619-a718-799397dfb4f2)
-
-  En ronge, vous avez la barre d'outils, celui qui vas nous intéresser est l'outil texte (entouré en bleu ciel). 
+- **GIMP** (gratuit) ou **Photoshop**  
+  👉 [Télécharger GIMP 3.0.4](https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.4-setup.exe)
   
-  En rose flashi, vous avez le texte que vous pouvez modifier pour mettre votre nom
-  
-  En jaune, vous avez la fenêtre des calques, dans cette fenêtre, vous avez les dossiers qu'il vous faut pour modifier le texte affiché, les fonds ainsi que les VFX (assemblage de texture pour rendre le patch réaliste, ex: boue, poussière).
-  
-  En orange, vous avez un calque texte, dans ce cas, il vous permet de modifier le texte affiché sur le patch.
+- **Arma Reforger** sur **PC** (⚠️ obligatoire)
 
-  Pour modifier le texte, sélectionnez l'outil Texte puis faite clic gauche sur le texte (encadré en rose) puis, modifiez le pour y placer votre nom (en général, dans l'armée, le format est le suivant Lucas MOONLGHT -> L. MOONLGHT).
+---
 
-  Une fois cela fait, vous pouvez choisir le fond de votre patch. Vous pouvez bien-sûr faire votre patch en plusieurs camouflage, il faut juste les faire un par un ! 
+## 1️⃣ Télécharger le projet graphique
 
-  Pour activer ou désactiver un calque, vous pouvez cliquer sur l'oeuil qui ce trouve à gauche du calque (en rouge sur l'image)
-  ![image](https://github.com/user-attachments/assets/d4d41c01-2d66-4fa5-88a4-16bac8781050)
+Rendez-vous sur cette page et téléchargez le fichier :  
+**`AMF_ProjetPhotoshopPatchPatronymique.psd`**
 
-  Une fois votre sélection faite, vous pouvez faire Fichier/Exportation/Exportation rapide en format PNG
-  ![image](https://github.com/user-attachments/assets/22b582c4-86d3-48b0-98c5-2824750671c8)
+➡️ Cliquez dessus puis sélectionnez **"Download Raw"** pour le récupérer.  
+![Téléchargement du PSD](https://github.com/user-attachments/assets/045cbce8-c3f8-4556-a76f-721d6602d1aa)
 
-  Exportez l'image finale dans un nouveau dossier qui va nous servir de base pour notre mod ARMA.
+---
 
+## 2️⃣ Modifier le patch dans GIMP ou Photoshop
 
-# 2.1. Modifier avec GIMP
+### ✏️ Ouvrir le projet
 
-  Pour faire votre patch avec GIMP, faite ouvrir avec GIMP
-  ![image](https://github.com/user-attachments/assets/3c1165f8-cdd8-49f4-98a7-8bbbd90c3359)
+Faites un clic droit sur le fichier `.psd` téléchargé → **"Ouvrir avec"** → choisissez **GIMP** ou **Photoshop**.
 
-  Si vous avez une erreur de ce type, faite Colorimetie Relative et cliquez sur Convert
-  ![image](https://github.com/user-attachments/assets/b9c0ce98-d7c4-4e0a-8edc-c4876afa32ca)
+---
 
-  Une fois GIMP ouvert, vous avez donc le projet, pour les personnes qui ne s'y conaissent pas, voici un petit récap:
-  ![image](https://github.com/user-attachments/assets/b24b7bfa-c477-4619-a718-799397dfb4f2)
+### 🖼️ 2.1 Modifier le patch avec **Photoshop**
 
-  En ronge, vous avez la barre d'outils, celui qui vas nous intéresser est l'outil texte (entouré en bleu ciel). 
-  
-  En rose flashi, vous avez le texte que vous pouvez modifier pour mettre votre nom
-  
-  En jaune, vous avez la fenêtre des calques, dans cette fenêtre, vous avez les dossiers qu'il vous faut pour modifier le texte affiché, les fonds ainsi que les VFX (assemblage de texture pour rendre le patch réaliste, ex: boue, poussière).
-  
-  En orange, vous avez un calque texte, dans ce cas, il vous permet de modifier le texte affiché sur le patch.
+Ouvrez le fichier avec **Adobe Photoshop**.  
+Une fois ouvert, vous verrez ce projet :  
+![Interface Photoshop](https://github.com/user-attachments/assets/b24b7bfa-c477-4619-a718-799397dfb4f2)
 
-  Pour modifier le texte, sélectionnez l'outil Texte puis faite clic gauche sur le texte (encadré en rose) puis, modifiez le pour y placer votre nom (en général, dans l'armée, le format est le suivant Lucas MOONLGHT -> L. MOONLGHT).
+#### 🧭 Repères en fonction des couleurs :
 
-  Une fois cela fait, vous pouvez choisir le fond de votre patch. Vous pouvez bien-sûr faire votre patch en plusieurs camouflage, il faut juste les faire un par un ! 
+- 🔵 **Outil texte** : permet d’éditer le nom
+- 🌸 **Zone de texte (rose)** : à modifier avec votre nom
+- 🟨 **Fenêtre des calques** : contient texte, fond, effets réalistes (poussière, boue, etc.)
+- 🟧 **Calque texte** : à personnaliser
+- 🔴 **Icône "œil"** : active/désactive un calque
 
-  Pour activer ou désactiver un calque, vous pouvez cliquer sur l'oeuil qui ce trouve à gauche du calque (en rouge sur l'image)
-  ![image](https://github.com/user-attachments/assets/d4d41c01-2d66-4fa5-88a4-16bac8781050)
+#### ✍️ Modifier le nom
 
-  Une fois votre sélection faite, vous pouvez faire Fichier/Exportation/Exportation rapide en format PNG
-  ![image](https://github.com/user-attachments/assets/22b582c4-86d3-48b0-98c5-2824750671c8)
+- Sélectionnez l’**outil texte** puis cliquez sur le texte encadré en rose.
+- Remplacez par votre nom, par exemple : `Lucas MOONLGHT → L. MOONLGHT`.
 
-  Exportez l'image finale dans un nouveau dossier qui va nous servir de base pour notre mod ARMA.
+#### 🎨 Choisir un fond
+
+Activez les camouflages en cliquant sur l’**icône œil** dans la fenêtre des calques.  
+Vous pouvez créer plusieurs versions (un patch par camouflage).
+
+#### 💾 Exporter
+
+Allez dans **Fichier > Exportation > Exportation rapide en PNG**.  
+Exportez l'image dans un **nouveau dossier** (ce sera la base de votre futur mod).
+
+---
+
+### 🎨 2.2 Modifier le patch avec **GIMP**
+
+Ouvrez le projet avec **GIMP**.  
+Si une boîte de dialogue s'affiche, choisissez **Colorimétrie relative**, puis **Convertir**.
+
+![Erreur GIMP](https://github.com/user-attachments/assets/b9c0ce98-d7c4-4e0a-8edc-c4876afa32ca)
+
+#### 🧭 Repères en fonction des couleurs :
+
+- 🔵 **Outil texte** (entouré bleu ciel)
+- 🌸 (zone rose) **Texte à modifier** 
+- 🟨 **Calques** : texte, fond, VFX
+- 🟧 **Calque texte**
+- 🔴 **Icône œil** : activer/désactiver un calque
+
+#### ✍️ Modifier le nom
+
+- Cliquez sur le texte avec l'outil texte.
+- Éditez avec votre nom (ex : `L. MOONLGHT`).
+- Centrez le texte manuellement avec des **espaces** si besoin.
+- Paramètres :
+  - 🟩 **Police** : Arial Bold
+  - 🟩 **Taille** : entre **85 et 90 px**
+
+#### 🎨 Choisir un fond
+
+Comme dans Photoshop, utilisez les **calques camouflage**. Activez/désactivez selon votre besoin.
+
+#### 💾 Exporter
+
+Allez dans **Fichier > Exporter sous** → choisissez le format **PNG**.
+
+💡 **Nom de fichier recommandé** :  
+`Patch_L.MOONLGHT_CE.png`  
+(Pour un camouflage CE, par exemple)
+
+---
+
+## 3️⃣ Intégrer le patch dans un mod Arma Reforger
+
+Une fois vos textures prêtes, il est temps de les intégrer dans un **mod ARMA Reforger**.
+
+### 🧩 Objectif :
+
+Créer une **variante personnalisée** du patch patronymique officiel.  
+Cela implique :
+
+---- WIP ----
+
+---
+
+## 📌 Conseils supplémentaires
+
+- Créez une **version par camouflage** pour plus de réalisme.
+- Respectez le **format militaire** des noms (`L. NOMDEFAMILLE`).
+- Conservez une **structure de dossier claire** pour vos textures.
+
+---
+
+## ✅ Résultat
+
+Une fois votre mod finalisé, vous pourrez voir votre **patch personnalisé** directement sur vos unités en jeu avec le mod **AMF** !
+
+---
+
+Si vous avez des questions, n’hésitez pas à ouvrir une issue ou à passer sur le [Discord d’AMF](https://discord.gg/armafrance).
+
+---
+
+© 2025 — *Arma Mod France*
