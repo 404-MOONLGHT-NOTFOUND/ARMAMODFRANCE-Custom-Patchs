@@ -149,7 +149,7 @@ Dans les mods Arma Reforger, vous n'êtes pas obligé de faire une hiérarchie d
 
 Pour ce faire, vous pouvez créer la hiérarchie suivante:
 
--Assets > Items > Patchs > Patronymiques
+-Assets > Items > Patchs > Patronymiques > Data > Textures
 
 -Configs > EntityCatalog > FR
 
@@ -157,7 +157,7 @@ Pour ce faire, vous pouvez créer la hiérarchie suivante:
 
 En finalité, ça devrait ressembler à ça ✅
 
-![image](https://github.com/user-attachments/assets/dcc43505-e4a3-4804-b6d3-5fda0bdbd180)
+![image](https://github.com/user-attachments/assets/551af942-d9da-4d53-af1d-086b811293fe)
 
 Une fois tout cela fait, vous n'avez plus qu'a vous rendre dans le mod AMF_FANTASSIN et à aller chercher le préfabriqué du patch Patronymique de base, proposé par AMF.
 
