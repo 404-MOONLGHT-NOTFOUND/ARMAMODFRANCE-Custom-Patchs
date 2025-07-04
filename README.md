@@ -3,6 +3,12 @@
 Bienvenue !  
 Dans ce tutoriel, vous apprendrez à modifier le **patch patronymique** (disponible depuis la version 1.17 du mod AMF) pour y inscrire votre propre nom. Ce guide est accessible aux **débutants** comme aux **utilisateurs avancés**.
 
+## ***"La majorité des utilisateurs n’utilisent que 20 à 30 % des fonctionnalités d’un logiciel."*** - Donald Norman
+
+## ***Ne te laisse pas impressionner par la complexité d’un outil : dans 90 % des cas, tu n’utiliseras que 20 % de ses fonctions.***
+
+Ne soyez pas effrayé des interfaces et des logiciels que l'on va utiliser dans ce tutoriel (comme les outils d'arma reforger), cette citation de Donald Norman est très très juste, même dans les tâches d'intégration de contenu jouable les plus complexes (comme les véhicules par exemple), pour le cas d'AMF, on n'utilise qu'une petite partie de Enfusion (du style 25%) pour faire 95% de ce qu'est AMF (qui représente les tenues, véhicules, armes, objets, scripts...).
+
 ---
 
 ## 🧰 Prérequis
@@ -107,10 +113,50 @@ Une fois vos textures prêtes, il est temps de les intégrer dans un **mod ARMA 
 
 ### 🧩 Objectif :
 
-Créer une **variante personnalisée** du patch patronymique officiel.  
-Cela implique :
+Créer une **variante personnalisée** du patch patronymique officiel avec un mod personnalisé ! 
 
----- WIP ----
+#### ✍️ Créer le mod pour réaliser le(s) patch(s)
+Ouvrez les outils de Arma Reforger, puis faite **add project > Add existing project**
+
+![image](https://github.com/user-attachments/assets/ed5e5bf2-9032-4128-9929-ee5301b906c9)
+
+Ensuite, allez dans le dossier où sont placés vos mods Arma Reforger (Souvent C:\Users\{VotreNomD'utilisateur}\Documents\My Games\ArmaReforger\addons), puis ouvrez le dossier nommé AMF_FANTASSIN_64CF25A41DCBDBE0 puis sélectionnez le seul fichier à l'intérieur
+
+![image](https://github.com/user-attachments/assets/3a69d02b-0d6d-404a-bb44-78474f33853e)
+
+Une fois cela fait, on va créer votre 1er mod (ou pas), faite **add project > Create a new project**
+
+![image](https://github.com/user-attachments/assets/6c63a084-5cab-47e7-8ebd-f9469f83d687)
+
+- Nommez votre mod sans espaces ni caractères spéciaux 
+- choisiez potentiellement l'emplacement de votre mod sur votre PC
+- Sélectionnez en dépendance AMF_FANTASSIN
+
+Puis faite Create !
+
+![image](https://github.com/user-attachments/assets/057f8220-29cd-4109-b5a0-bed3c36137b5)
+
+#### 🧩 Créer la hiérarchie de dossier pour pouvoir faire les patchs proprement
+
+Dans les mods Arma Reforger, vous n'êtes pas obligé de faire une hiérarchie de dossier, vous pouvez très bien tout mélanger ! Cependant, je vous souhaite bon courage pour vous y retrouver ! 
+N’importe qui peut écrire du code que la machine comprend. Un bon développeur écrit du code que les humains comprennent. - Martin Fowler
+
+Pour ce faire, vous pouvez créer la hiérarchie suivante:
+-Assets
+  -Items
+    -Patchs
+      -Patronymiques
+-Configs
+  -EntityCatalog
+    -FR
+Prefabs
+  -Items
+    -Patchs
+      -Patronymiques
+
+En finalité, ça devrait ressembler à ça !
+
+![image](https://github.com/user-attachments/assets/dcc43505-e4a3-4804-b6d3-5fda0bdbd180)
 
 ---
 
