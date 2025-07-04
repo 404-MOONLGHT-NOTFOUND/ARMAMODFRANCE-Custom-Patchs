@@ -23,7 +23,7 @@ Ne soyez pas effrayé des interfaces et des logiciels que l'on va utiliser dans 
 ## 1️⃣ Télécharger le projet graphique
 
 Rendez-vous sur cette page et téléchargez le fichier :  
-**`AMF_ProjetPhotoshopPatchPatronymique.psd`**
+**`AMF_ProjetPhotoshopPatchPatronymique.psd`** si vous avez photoshop ou **`AMF_ProjetPhotoshopPatchPatronymique_GIMP.xcf`** si vous avez GIMP
 
 ➡️ Cliquez dessus puis sélectionnez **"Download Raw"** pour le récupérer.  
 ![Téléchargement du PSD](https://github.com/user-attachments/assets/045cbce8-c3f8-4556-a76f-721d6602d1aa)
