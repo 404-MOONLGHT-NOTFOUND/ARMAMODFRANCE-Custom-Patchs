@@ -183,7 +183,7 @@ Une fois votre mod finalisé, vous pourrez voir votre **patch personnalisé** di
 
 ---
 
-Si vous avez des questions, n’hésitez pas à ouvrir une issue ou à passer sur le [Discord d’AMF](https://discord.com/channels/507939466959257610/1390817279842979860/1390826670617006144).
+Si vous avez des questions, n’hésitez pas à ouvrir une issue ou à passer sur le [Discord d’AMF](https://discord.gg/eycKqCKtWX) dans [le fil](https://discord.com/channels/507939466959257610/1390817279842979860).
 
 ---
 
