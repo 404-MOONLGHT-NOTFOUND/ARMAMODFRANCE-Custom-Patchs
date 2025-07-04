@@ -1,4 +1,4 @@
-# 🎖️ Tutoriel ARMA MOD FRANCE — Personnaliser le patch patronymique avec votre nom
+# 🎖️ Tutoriel ARMA MOD FRANCE — Personnaliser le patch patronymique avec votre nom (WORK IN PROGRESS)
 
 Bienvenue !  
 Dans ce tutoriel, vous apprendrez à modifier le **patch patronymique** (disponible depuis la version 1.17 du mod AMF) pour y inscrire votre propre nom. Ce guide est accessible aux **débutants** comme aux **utilisateurs avancés**.
@@ -148,19 +148,14 @@ Dans les mods Arma Reforger, vous n'êtes pas obligé de faire une hiérarchie d
 # N’importe qui peut écrire du code que la machine comprend. Un bon développeur écrit du code que les humains comprennent. - Martin Fowler
 
 Pour ce faire, vous pouvez créer la hiérarchie suivante:
--Assets
-  -Items
-    -Patchs
-      -Patronymiques
--Configs
-  -EntityCatalog
-    -FR
-Prefabs
-  -Items
-    -Patchs
-      -Patronymiques
 
-En finalité, ça devrait ressembler à ça !
+-Assets > Items > Patchs > Patronymiques
+
+-Configs > EntityCatalog > FR
+
+-Prefabs > Items > Patchs > Patronymiques
+
+En finalité, ça devrait ressembler à ça ✅
 
 ![image](https://github.com/user-attachments/assets/dcc43505-e4a3-4804-b6d3-5fda0bdbd180)
 
@@ -168,11 +163,13 @@ Une fois tout cela fait, vous n'avez plus qu'a vous rendre dans le mod AMF_FANTA
 
 Pour ce faire, rendez vous dans AMF_FANTASSIN > Prefabs > Items > Patchs > Patronymiques puis faite clique droit sur le fichier "Patch_Patronymique_Base" qui faites "Inherit to {LeNomDeVotreMod}" 
 
-# ATTENTION ⚠️: Ne pas faire "Override to {LeNomDeVotreMod}" sinon la configuration du patch de base sera remplacé par la votre et risque de causer des problèmes par la suite 
+## ATTENTION ⚠️: Ne pas faire "Override to {LeNomDeVotreMod}" sinon la configuration du patch de base sera remplacé par la votre et risque de causer des problèmes par la suite 
+
+**🚧 Work In Progress 🚧**
 
 ---
 
-## 📌 Conseils supplémentaires
+## 📌 Conseils supplémentaires **🚧 Work In Progress 🚧**
 
 - Créez une **version par camouflage** pour plus de réalisme.
 - Respectez le **format militaire** des noms (`L. NOMDEFAMILLE`).
@@ -180,13 +177,13 @@ Pour ce faire, rendez vous dans AMF_FANTASSIN > Prefabs > Items > Patchs > Patro
 
 ---
 
-## ✅ Résultat
+## ✅ Résultat **🚧 Work In Progress 🚧**
 
 Une fois votre mod finalisé, vous pourrez voir votre **patch personnalisé** directement sur vos unités en jeu avec le mod **AMF** !
 
 ---
 
-Si vous avez des questions, n’hésitez pas à ouvrir une issue ou à passer sur le [Discord d’AMF](https://discord.gg/armafrance).
+Si vous avez des questions, n’hésitez pas à ouvrir une issue ou à passer sur le [Discord d’AMF](https://discord.com/channels/507939466959257610/1390817279842979860/1390826670617006144).
 
 ---
 
