@@ -109,7 +109,13 @@ Allez dans **Fichier > Exporter sous** → choisissez le format **PNG**.
 
 ## 3️⃣ Intégrer le patch dans un mod Arma Reforger
 
-Une fois vos textures prêtes, il est temps de les intégrer dans un **mod ARMA Reforger**.
+Une fois vos textures prêtes, il est temps de les intégrer dans un **mod ARMA Reforger** ! 
+
+Petites explications avant de commencer: 
+- Dans tout moteur de jeu récent, les objets, patchs, vêtements, armes, cailloux... sont représenté sous la forme de préfabriqué. Ce sont simplement des entité génériques qui peuvent être utilisé simplement, sans prise de tête par les moddeurs et les développeurs. Voyez ceci comme **la configuration** de votre patch patronymique (dans ce cas) mais voyez les préfabs comme l'entièreté de ce que vous voyez en jeu (du simple cailloux, au Mi-8 qui vous bombarde de roquettes qui sont également des préfabs !). Dans ces préfabs, il y a des **components**, traduis comportement en français. Ce sont simplement des scripts qui vont intervenir dans le préfab pour lui permettre d'avoir des fonctionnalités (comme la colision avec le component RigidBody, affichier le modèle 3D et la texture avec le MeshObject, le comportement d'un véhicule avec le SCR_WheeledSimulationComponent, ext...). Si vous avez compris ceci, vous êtes prêt pour faire votre patch.
+- Il existe aussi des fichiers de configurations "simple", c'est tout simplement une liste d'options pour certains component (comme la liste des patchs à afficher dans la caisse des patchs par exemple). Elle permet de renseigner des options de base qui ne sont pas modifiables par l'utilisateur final, mais par les moddeurs et les développeurs.
+- Dans les moteurs de jeu, il y a deux type de fichier pour gérer les textures, les matériaux (.emat) et les textures (.png, .edds, .edd...). La différence est que le matériau sert a répertorier les textures (.edds, .dds) par type pour pouvoir les appliquer sur un modèle 3D (ex: un patch patronymique en 3D).
+- Quand l'on va mettre nos textures dans Enfusion, le moteur va les importer (comme tous fichiers). Il va les convertir dans quelque chose qui est optimisé pour les jeux vidéos ainsi qu'un format qui comprend réellement (Exemple: .png -> .edds, .fbx -> .xob). Cela ce fait automatiquement, et il ne faut pas supprimer les fichiers que vous avez mit dans le moteur ! Ces fichiers qui ont été importé seront supprimé dans la version qui sera envoyé sur le Workshop par le moteur lui même. Vous ne devez pas supprimer de vous même les fichiers que vous avez mis dans votre mod ⚠️
 
 ### 🧩 Objectif :
 
@@ -139,7 +145,7 @@ Puis faite Create !
 #### 🧩 Créer la hiérarchie de dossier pour pouvoir faire les patchs proprement
 
 Dans les mods Arma Reforger, vous n'êtes pas obligé de faire une hiérarchie de dossier, vous pouvez très bien tout mélanger ! Cependant, je vous souhaite bon courage pour vous y retrouver ! 
-N’importe qui peut écrire du code que la machine comprend. Un bon développeur écrit du code que les humains comprennent. - Martin Fowler
+# N’importe qui peut écrire du code que la machine comprend. Un bon développeur écrit du code que les humains comprennent. - Martin Fowler
 
 Pour ce faire, vous pouvez créer la hiérarchie suivante:
 -Assets
@@ -157,6 +163,12 @@ Prefabs
 En finalité, ça devrait ressembler à ça !
 
 ![image](https://github.com/user-attachments/assets/dcc43505-e4a3-4804-b6d3-5fda0bdbd180)
+
+Une fois tout cela fait, vous n'avez plus qu'a vous rendre dans le mod AMF_FANTASSIN et à aller chercher le préfabriqué du patch Patronymique de base, proposé par AMF.
+
+Pour ce faire, rendez vous dans AMF_FANTASSIN > Prefabs > Items > Patchs > Patronymiques puis faite clique droit sur le fichier "Patch_Patronymique_Base" qui faites "Inherit to {LeNomDeVotreMod}" 
+
+# ATTENTION ⚠️: Ne pas faire "Override to {LeNomDeVotreMod}" sinon la configuration du patch de base sera remplacé par la votre et risque de causer des problèmes par la suite 
 
 ---
 
