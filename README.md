@@ -3,11 +3,13 @@
 Bienvenue !  
 Dans ce tutoriel, vous apprendrez à modifier le **patch patronymique** (disponible depuis la version 1.17 du mod AMF) pour y inscrire votre propre nom. Ce guide est accessible aux **débutants** comme aux **utilisateurs avancés**.
 
-## ***"La majorité des utilisateurs n’utilisent que 20 à 30 % des fonctionnalités d’un logiciel."*** - Donald Norman
+> ## ***"La majorité des utilisateurs n’utilisent que 20 à 30 % des fonctionnalités d’un logiciel."***  
+> — Donald Norman  
+>
+> ## ***Ne te laisse pas impressionner par la complexité d’un outil : dans 90 % des cas, tu n’utiliseras que 20 % de ses fonctions.***
 
-## ***Ne te laisse pas impressionner par la complexité d’un outil : dans 90 % des cas, tu n’utiliseras que 20 % de ses fonctions.***
-
-Ne soyez pas effrayé des interfaces et des logiciels que l'on va utiliser dans ce tutoriel (comme les outils d'arma reforger), cette citation de Donald Norman est très très juste, même dans les tâches d'intégration de contenu jouable les plus complexes (comme les véhicules par exemple), pour le cas d'AMF, on n'utilise qu'une petite partie de Enfusion (du style 25%) pour faire 95% de ce qu'est AMF (qui représente les tenues, véhicules, armes, objets, scripts...).
+Ne soyez pas effrayé par les interfaces et logiciels utilisés dans ce tutoriel (comme les outils d’Arma Reforger).  
+Cette citation est très juste : même pour des tâches complexes comme l’intégration de véhicules, **AMF n’utilise qu’environ 25 % d’Enfusion** pour réaliser 95 % du contenu (tenues, véhicules, armes, scripts…).
 
 ---
 
@@ -22,8 +24,10 @@ Ne soyez pas effrayé des interfaces et des logiciels que l'on va utiliser dans 
 
 ## 1️⃣ Télécharger le projet graphique
 
-Rendez-vous sur cette page et téléchargez le fichier :  
-**`AMF_ProjetPhotoshopPatchPatronymique.psd`** si vous avez photoshop ou **`AMF_ProjetPhotoshopPatchPatronymique_GIMP.xcf`** si vous avez GIMP
+Téléchargez le fichier correspondant à votre logiciel :
+
+- **Photoshop** → `AMF_ProjetPhotoshopPatchPatronymique.psd`
+- **GIMP** → `AMF_ProjetPhotoshopPatchPatronymique_GIMP.xcf`
 
 ➡️ Cliquez dessus puis sélectionnez **"Download Raw"** pour le récupérer.  
 ![Téléchargement du PSD](https://github.com/user-attachments/assets/045cbce8-c3f8-4556-a76f-721d6602d1aa)
